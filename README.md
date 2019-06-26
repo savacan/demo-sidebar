@@ -3,7 +3,7 @@
 `yarn build:dev`  
 `yarn start`  
 
-port8003で確認できます。
+port8002で確認できます。
 
 
 ## yarn build:dev  
