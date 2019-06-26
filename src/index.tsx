@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as ReactDom from 'react-dom'
+import Counter from './component/Counter'
 
 class Main extends React.Component {
   componentDidMount() {
@@ -11,7 +12,12 @@ class Main extends React.Component {
   }
 
   render() {
-    return <div> sidebar common test upd: {Date.now()} </div>
+    return (
+      <div>
+        <div>Hello this is react component</div>
+        <Counter />
+      </div>
+    )
   }
 }
 
